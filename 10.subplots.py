@@ -20,7 +20,7 @@ fig, (ax1,ax2)=plt.subplots(nrows=2,ncols=1,sharex=True)# unpacking axes
 # now our ax here which we can just think of as plot is only set to a single axes or a single plot at the moment.
 # that is because by defaults subplots create a figure and then specify a certain number of rows and columns of axes.
 # if we dont pass in our number of rows and columns then it just defaults to a one row by one column which is simply one axes.
-# lets update our code to plot on this axis that we juxt created instead of using our pyplot object.
+# lets update our code to plot on this axis that we just created instead of using our pyplot object.
 
 # for some cases it is as simple as using our ax here instead of plt object.
 ax1.plot(ages,dev_salaries,label="All_Devs",linestyle="--")
@@ -36,6 +36,7 @@ ax1.set_ylabel("Median Salary")
 
 ax2.set_xlabel("Ages")
 ax2.set_ylabel("Median Salary")
+
 # tight_layout() and show() are methods of plt object. so this will remain same.
 plt.tight_layout()
 plt.savefig("fig.png")
@@ -60,7 +61,7 @@ print(plt.gcf())
 print(plt.gca())
 # we can also switch between different ones and that the stateful way of doing it.
 # but many people prefer to use the more object oriented approach when working with multiple figures and axes.
-# so to do that we can use the subplot() method. 
+# so to do that we can use the subplots() method. 
 
 # right now lets create the same plot that we have.
 # but instead of using pyplot object that we imported, we will instantiate a figure and an axes.

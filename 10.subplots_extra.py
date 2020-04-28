@@ -39,5 +39,3 @@ plt.show()
 
 # its nice being able to generate multiple figures and axes at a time like this and save them.
 # so this would be great for automatic data analysis where we are plotting data in a background script.
-
-# unpacking video - watch this.

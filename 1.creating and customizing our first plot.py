@@ -86,8 +86,7 @@ plt.plot(ages_x,py_y, "o-b", linewidth=3, label="Python")
 # "D"       diamond marker
 # "d"       thin diamond marker
 # "|"       vertical line marker
-# "_"       horizontal line marke0
-# r
+# "_"       horizontal line marker
 
 # line styles
 # "-"        solid line style
@@ -107,7 +106,7 @@ plt.plot(ages_x,py_y, "o-b", linewidth=3, label="Python")
 
 # now we are going to add this and show our plot.
 #plt.show()
-# but format string is not radable to human.
+# but format string is not readable to human.
 # we can specify color and linestyle and marker by adding extra arguements instead of format sting as it is readable.
 #plt.show()
 
@@ -158,9 +157,17 @@ print(plt.style.available)
 # we should not use that when we are using another style in our plot.
 
 # we can also save our plot in the plot menu and also by doing coding.
+# first lets see what are the file types available for us to save our plot.
+print(fig.canvas.get_supported_filetypes())
+
 # we can use savefig function.
 plt.savefig("plot1.png")
 # it will be save to our current directory.
 # but we can save that in another location too by adding the location as first arguement of our savefig function.
+# we can also use some useful arguements in savefig() function. they are-
+
+# transparent=True makes the background of the saved figure transparent if the format supports it.
+# dpi=80 controls the resolution (dots per square inch) of the output.
+# bbox_inches="tight" fits the bounds of the figure to our plot.
 
 plt.show()
