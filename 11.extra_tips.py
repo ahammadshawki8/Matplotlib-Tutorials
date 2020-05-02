@@ -22,7 +22,7 @@ values = [1, 10, 100]
 
 plt.subplot(131)
 plt.bar(names,values)
-# subplot variable create subplots in the figure.
+# subplot function create subplots in the figure.
 # call signature:
 #       subplot(nrows, ncols, index, **kwargs)
 #       subplot(pos, **kwargs)
@@ -49,7 +49,7 @@ plt.subplot(133)
 plt.plot(names,values)
 
 plt.title("Categorical variables")
-#plt.show()
+plt.show()
 
 # tip2
 
@@ -64,7 +64,7 @@ plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
 
 # we can also change the fontsize, alpha, color and other props when setting perticular text.
 plt.xlabel("Randoms",color="green",fontsize=10,alpha=0.75)
-#plt.show() 
+plt.show() 
 
 
 # sub-tip 2
@@ -78,7 +78,7 @@ plt.title(r'$\sigma_i=15$')
 # matplotlib has a built-in TeX expression parser and layout engine,
 # and ships its own math fonts. for details, we can see :
 "doc:/tutorials/text/mathtext."
-#plt.show()
+plt.show()
 
 # sub-tip 3
 # Annotating text
@@ -106,6 +106,9 @@ plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
 
 plt.ylim(-2, 2)
 plt.show()
+
+# we can see more information about annotations in the link below:
+"""https://matplotlib.org/tutorials/text/annotations.html#sphx-glr-tutorials-text-annotations-py"""
 
 # tip 3
 # non linear axes.

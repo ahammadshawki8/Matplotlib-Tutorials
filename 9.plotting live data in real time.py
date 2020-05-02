@@ -25,16 +25,17 @@ def animate(i):
     x_vals.append(next(index))# x values is going to append a value which going to count up by one. so its just going to be sequential.
     y_vals.append(random.randint(0,5))# y value is appending a random number here from 0 to 5.
     plt.cla()
+    #plt.title(index)
     plt.plot(x_vals,y_vals,linewidth=0.5)
 # lets say we want to run this function every second and plot this values appended to our list.
 # how can we do that?
 # we can use FuncAnimation class from the animation module in matplotlib.
 # now lets tell matplotlib that we wnat to run that function on a specific interval so we can plot this new data.
 # we can do this by-
-ani=FuncAnimation(plt.gcf(),animate,interval=1000)
+ani=FuncAnimation(plt.gcf(),animate,interval=100)
 # first we need to add figure as the first arguement.
-# then we need to add the function that we want for our animation.
-# then we want to add that interval of how many secons after we run our function.
+# then we need to add the function that we created for our animation.
+# then we need to add that interval of how many seconds after we run our function.
 # the unit of the interval is on miliseconds.
 # now matplotlib will run this function after 1 sec.
 # but we need to plot the data in animate function.
