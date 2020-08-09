@@ -1,3 +1,5 @@
+![Poster](https://github.com/ahammadshawki8/Matplotlib-Tutorials/blob/master/matplotlib.jpg)
+
 # Visualize the data with Matplotlib
 
 Matplotlib is one of the best python third party library which is used for plotting different types data.
