@@ -14,5 +14,5 @@ After learning the stuffs in this repository, coders can create line plots, vert
 Video Tutorials:
    * Corey Schafer - https://www.youtube.com/user/schafer5
 
-#_License_
+# _License_
 Details can be found in [LICENSE](https://github.com/ahammadshawki8/Matplotlib-Tutorials/blob/master/LICENSE)
