@@ -6,7 +6,7 @@ Matplotlib is one of the best python third party library which is used for plott
 After learning the stuffs in this repository, coders can create line plots, vertical and horizontal bar graphs, pie plots, histograms, scatter plots, stack plots and many more.
 
 
-# _Some helpful stuffs which assist me to create this repository:_
+# _Some helpful stuffs which assisted me to create this repository:_
 
 * Ofiicial documentation of Matplotlib:
   https://matplotlib.org/3.2.2/tutorials/index.html
